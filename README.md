@@ -8,8 +8,9 @@
 ## 数学原理
 
 该实验方案的原理是基于数学统计理论所得的结论，即在实验中细针与平行线相交的概率为：  
+
 $$
-\frac{2}{\pi}
+P = \frac{2}{\pi}
 $$
 （此时是假设针与线宽相同）。
 
@@ -53,6 +54,9 @@ $$
 ---
 
 ## 项目结构
-
+安装manim库同时输出视频
 ```bash
 manim -p -ql drop_needles.py BuffonNeedleFast   # 进入相应文件夹运行
+进行数值模拟计算
+```bash
+python drop_the_needle.py
